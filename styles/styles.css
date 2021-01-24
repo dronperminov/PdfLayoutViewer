@@ -1,0 +1,43 @@
+.viewer {
+    display: table;
+}
+
+.viewer-images {
+    display: table-cell;
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.viewer-layout {
+    display: table-cell;
+    width: 50%;
+    border: 1px solid #000;
+    vertical-align: top;
+}
+
+.viewer-image {
+    position: relative;
+}
+
+.viewer-images img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.viewer-block {
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+.viewer-block:hover {
+    background: #f0f4ff;
+    cursor: pointer;
+}
+
+.viewer-layout {
+    position: relative;
+}
+
+.viewer-content {
+
+}
